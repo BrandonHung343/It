@@ -98,4 +98,9 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+    public int wurf(int ELO, int costRatio){
+        return ELO*costRatio;
+
+    }
 }
