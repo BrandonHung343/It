@@ -100,7 +100,8 @@ public class MainActivity extends AppCompatActivity
     }
 
     public int wurf(int ELO, int costRatio){
-        return ELO*costRatio;
+        return ELO*costRatio+1;
+        //delete the +! later
 
     }
 }
