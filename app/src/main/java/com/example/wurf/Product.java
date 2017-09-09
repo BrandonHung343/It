@@ -52,7 +52,35 @@ public class Product {
         return producerId;
     }
 
-    public
+    public String getMarket(){
+        return market;
+    }
 
+    public int getMarketId(){
+        return marketId;
+    }
 
+    public String getSubmarket(){
+        return submarket;
+    }
+
+    public int getSubmarketId(){
+        return submarketId;
+    }
+
+    public double getPrice(){
+        return price;
+    }
+
+    public int getElo(){
+        return elo;
+    }
+
+    public String getDescription(){
+        return description;
+    }
+
+    public Bitmap getImage(){
+        return image;
+    }
 }
